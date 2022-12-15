@@ -49,5 +49,7 @@ sudo snap install dbeaver-ce
 npm install -g typescript
 npm install -g @angular/cli
 
+curl -L git.io/antigen > .antigen.zsh
 cp ./zshrc ~/.zshrc
+chsh -s $(which zsh)
 
