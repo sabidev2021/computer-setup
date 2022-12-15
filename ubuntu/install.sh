@@ -18,6 +18,9 @@ sudo apt install timeshift -y
 sudo apt install caffeine -y
 sudo apt install neofetch -y
 sudo apt install htop -y
+sudo apt install btop -y
+sudo apt install zsh -y
+sudo apt install yakuake -y
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
@@ -45,4 +48,6 @@ sudo snap install dbeaver-ce
 
 npm install -g typescript
 npm install -g @angular/cli
+
+cp ./zshrc ~/.zshrc
 
